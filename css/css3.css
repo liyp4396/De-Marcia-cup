@@ -1,0 +1,37 @@
+/* .bg-wrap .meteorolite{
+    width: 115px;
+    height: 79px;
+    background: url(../img/meteorolite.png) no-repeat;
+    margin: 0 auto;
+    animation: down 10s ease infinite normal;
+    
+}
+@keyframes down{
+    form{
+        transform:rotate(90deg)  translate(0, 1300px);
+    }
+    10%{
+        transform: rotate(60deg) translate(0, 1300px);
+    }
+    20%{
+        transform: rotate(60deg) translate(0, 1300px);
+    }
+    30%{
+        transform:  translate(0, 1300px);
+    }
+    40%{
+        transform:  translate(0, 1300px);
+    }
+    50%{
+        transform: translate(0, 1300px);
+    }
+    60%{
+        transform:  translate(0, 1300px);
+    }
+    70%{
+        transform:  translate(0, 1300px);
+    }
+    100%{
+        transform:  translate(0, 1300px);
+    }
+} */

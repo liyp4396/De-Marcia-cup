@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-wrap{
+    width: 1920px;
+    height: 1140px;
+    background: url(../img/BG.png) no-repeat;
+    position: relative;
+}
+.bg-wrap .top{
+    width: 1800px;
+    height: 79px;
+    /* padding: 0 69px 0 55px; */
+    position: absolute;
+    top: 48px;
+    left: 55px;
+    /* border: 1px solid wheat; */
+    overflow: hidden;
+}
+/* .bg-wrap .top .top-l{
+    overflow: hidden;
+} */
+.bg-wrap .top .top-l .logo{
+    float: left;
+    width: 162px;
+    height: 84px;
+    background: url(../img/logo.png) no-repeat;
+}
+.bg-wrap .top .top-l .slogn{
+    width: 223px;
+    height: 48px;
+    float: left;
+    background: url(../img/solong.png) no-repeat;
+   margin: 15px 0 15px 25px;
+}
+.bg-wrap .top .top-r{
+    float: right;
+    width: 260px;
+    height: 79px;
+    /* border: 1px solid red; */
+    background: url(../img/icon-button.png) no-repeat;
+}
+.bg-wrap .top .top-r .logitedr{
+    width: 61px;
+    height: 75px;
+    background: url(../img/logitedr.png) no-repeat;
+}
+.bg-wrap .top .top-r .iconfont{
+    width: 132px;
+    height: 43px;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 0px;
+    right: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bg-wrap .top .top-r .iconfont img{
+    display: inline-block;
+}
+.bg-wrap .support{
+    width: 465px;
+    height: 37px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 348px;
+    left: 742px;
+    background: url(../img/light.png) no-repeat;
+    background-size: cover;
+    background-position-x: -60px;
+}
+.bg-wrap .support a{
+    color: #ffce7a;
+    font-size: 36.6px;
+    text-decoration: none;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+.bg-wrap .duel{
+    width: 630px;
+    height: 70px;
+    /* background: url(../img/dule.png) no-repeat; */
+    position: absolute;
+    top: 400px;
+    left: 658px;
+}
+.bg-wrap .result{
+    width: 943px;
+    height: 80px;
+    /* background: url(../img/result.png) no-repeat; */
+    position: absolute;
+    top: 486px;
+    left: 502px;
+}
+.bg-wrap .expect{
+    width: 465px;
+    height: 19px;
+    position: absolute;
+    top: 604px;
+    left:742px;
+    text-align: center;
+}
+.bg-wrap .expect a{
+    font-size: 18px;
+    color: #a17f37;
+    text-decoration: none;
+    line-height: 19px;
+}
+.bg-wrap .expect a::before{
+    content: '';
+    display: block;
+    width: 64px;
+    height: 1px;
+    background-color: #a17f37;
+    position: absolute;
+    top: 7px;
+    left: 110px;
+}
+.bg-wrap .expect a::after{
+    content: '';
+    display: block;
+    width: 64px;
+    height: 1px;
+    background-color: #a17f37;
+    position: absolute;
+    top: 7px;
+    right: 110px;
+}
+.bg-wrap .spike{
+    width: 570px;
+    height: 112px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 642px;
+    left: 683px;
+}
+.bg-wrap .spike .timer-wrap{
+    width: 570px;
+    height: 112px;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.bg-wrap .spike .timer-wrap .timer-day{
+    width: 116px;
+    height: 110px;
+    border-radius: 10px;
+    background-color: #0f0b0c;
+    float: left;
+}
+.bg-wrap .spike .timer-wrap .timer-sep{
+    float: left;
+    line-height: 110px;
+    color: #ffc63d;
+    padding: 0 5px;
+}
+.bg-wrap .spike .timer-wrap .timer-day .timer-button{
+    width: 123px;
+    height: 113px;
+    background: url(../img/time-button.png) no-repeat center;
+    background-size: cover;
+    background-position-x: -3px;
+    background-position-y: 3px;
+    text-align: center;
+}
+.bg-wrap .spike .timer-wrap .timer-day .timer-button .timer-num{
+    color: #fff;
+    font: 70px 'BebasNeue';
+    letter-spacing: -8px;
+    line-height: 113px;
+}
+.bg-wrap .footer-button{
+    width: 560px;
+    height: 94px;
+    position: absolute;
+    bottom: 271px;
+    left: 692px;
+}
+.bg-wrap .footer-button .back-button{
+    float: left;
+    width: 276px;
+    height: 96px;
+    background: url(../img/back-button.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.bg-wrap .footer-button .back-button a{
+    text-decoration: none;
+    color:#ffe5a8 ;
+    font-size: 24px;
+    line-height: 96px;
+}
+.bg-wrap .footer-button .buy-button{
+    float: right;
+    width: 276px;
+    height: 96px;
+    background: url(../img/buy-button.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.bg-wrap .footer-button .buy-button a{
+    text-decoration: none;
+    color:#ffff79 ;
+    font-size: 24px;
+    line-height: 96px;
+}
+/* <!-- 购买页面 --> */
+.buy-bg-wrap{
+    width: 752px;
+    height: 876px;
+    position: absolute;
+    top: 139px;
+    left: 579px;
+    background: url(../img/buy-bg.png) no-repeat;
+    background-size: cover;
+    padding: 14px 13px 17px 13px;
+    z-index: 1000;
+    display: none; 
+}
+.buy-bg-wrap .message-box{
+    width: 695px;
+    height: 853px;
+    border: 1px solid #945109;
+    padding: 25px 28px 0 25px;
+    background-color: rgba(35, 24, 17, .6);
+}
+.buy-bg-wrap .message-box .message-box-list{
+    width: 483px;
+    height: 53px;
+    border-bottom: 1px solid #775233;
+}
+.buy-bg-wrap .message-box .message-box-list span{
+    color: #dc3422;
+    font-size: 22px;
+    line-height: 53px;
+}
+.buy-bg-wrap .message-box .message-box-list:nth-child(3) {
+    border: none;
+    width: 485px;
+    height: 53px;
+}
+.buy-bg-wrap .weixin-wrap{
+    width: 143px;
+    height: 167px;
+    position: absolute;
+    top: 38px;
+    right: 45px;
+    text-align: center;
+}
+.buy-bg-wrap .weixin-wrap .weixin{
+    width: 142px;
+    height: 142px;
+    background: url(../img/wenxi-buy.png) no-repeat;
+}
+.buy-bg-wrap .weixin-wrap span{
+    color: #dc3422;
+    font-size: 14px;
+    line-height: 30px;
+}
+ /* 购买须知  */
+.buy-bg-wrap .pur-notice{
+    width: 700px;
+    height: 501px;
+    border-top: 1px solid #945109;
+    position: absolute;
+    top: 226px;
+    left: 38px;
+    text-align: center;
+}
+.buy-bg-wrap .pur-notice span{
+    color: #bf8149;
+    font-size: 22px;
+    margin-top: 25px;
+    display: block;
+    margin-bottom: 15px;
+}
+.buy-bg-wrap .pur-notice a{
+    color: #bf8149;
+    font-size: 12px;
+    display: block;
+    text-align: left;
+}
+/* <!-- 点击接受 --> */
+.buy-bg-wrap .accept{
+    width: 230px;
+    height: 50px;
+    position: absolute;
+    bottom: 163px;
+    left:282px;
+    color: #bf8149;
+    font-size: 14px;
+    line-height: 18px;
+}
+.buy-bg-wrap .accept input{
+    width: 18px;
+    height: 18px;
+    background-color: #945109;
+}
+.buy-bg-wrap .accept h4{
+    display: inline-block;
+}
+/* <!-- 点击购买 --> */
+.buy-bg-wrap .click-buy{
+    width: 288px;
+    height: 188px;
+    position: absolute;
+    bottom: -20px ;
+    left: 32%;
+    background: url(../img/back-button.png) no-repeat;
+    text-align: center;
+}
+.buy-bg-wrap .click-buy a{
+    color: #ffe5a8;
+    font-size: 24px;
+    line-height: 107px;
+    text-decoration: none;
+}
+
+
+/* 关闭购买页面 */
+.buy-bg-wrap .close-but{
+width: 76px;
+height: 76px;
+background: url(../img/close-bg.png) no-repeat;
+position: absolute;
+top: 0;
+left: 790px;
+text-align: center;
+}
+.buy-bg-wrap .close-but img{
+    display: block;
+    color: #ac7544;
+    line-height: 76px;
+    background-size: cover;
+    margin: 17px auto;
+}
